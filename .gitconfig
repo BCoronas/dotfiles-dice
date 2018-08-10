@@ -1,0 +1,14 @@
+	username = dice
+	name = Jose Coronas
+	location = Panama
+	signingkey = 2E5A7F11678A6A4DB9470340126BBBCB6F7BBA9F
+[commit]
+	gpgsign = true
+[aliases]
+	reddit = dice55x2
+	github = BCoronas
+	bitbucket = d1c3
+[alias]
+	pushall = !git remote | xargs -L1 -I R git push R $2
+[merge "ours"]
+	driver = true
